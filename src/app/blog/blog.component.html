@@ -40,8 +40,8 @@
     </section>
 </main>
 
-<section class="modal"*ngIf="showSingUp ">
-    <div class="modal__singUp"><!--start block browser popup sing Up -->
+<section class="modal"*ngIf="showSingUp "><!--start block browser popup sing Up -->
+    <div class="modal__singUp">
         <div class="modal__singUp__header">
             <h1>Sing up</h1>
             <div class="modal__singUp__header_close" (click)="close()">X</div>
@@ -74,6 +74,7 @@
         </div>
     </div>
 </section><!--end block browser popup sing Up -->
+
 <section class="modal"*ngIf="showAddPost">
     <div class="modal__AddPost"><!--start block browser popup Add Post -->
         <div class="modal__AddPost__header">
@@ -130,5 +131,4 @@
                 (click)="submitIn()">Submit</button>
         </div>
     </div>
-
 </section><!--end block browser popup sing In -->
